@@ -1,0 +1,124 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* give background color */
+body{
+    background-color: #f6f6f6;
+}
+
+/* header */
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* title header */
+.title{
+    font-size: 3rem;
+    text-shadow: 1px 5px 8px gray;
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+
+/* header h1 */
+.header h1{
+    margin: 0;
+    font-weight: bolder;
+    font-size: 2.1rem;
+}
+
+/* main todos */
+.main{
+    display: flex;
+    margin: 2rem 4rem;
+}
+
+/* add todo section */
+.add-todo{
+    display: flex;
+    flex-direction: column;   
+}
+
+/* add todo title */
+.title-add-todo{
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: .6rem;
+}
+
+/* input add todo (textarea) */
+#input-add-todo{
+    margin-bottom: 1.5rem;
+    box-shadow: 3px 5px 10px #bdbdbd;
+    background-color: #fbfbfb;
+    border-radius: 4px;
+    outline: none;
+    border: 1px solid #9e9e9e;
+    min-height: 60px;
+}
+
+/* input add todo (textarea) when focus */
+#input-add-todo:focus{
+    border-color: #2fc0ec;
+}
+
+/* button add todo */
+#btn-add-todo{
+    background-color: #33C3F0;
+    border: none;
+    border-radius: 5px;
+    padding: .6rem;
+    color: #fff;
+    font-weight: 600;
+    font-size: .9rem;
+    box-shadow: 1px 4px 10px #bdbdbd;
+    width: 100%;
+    cursor: pointer;
+}
+
+/* todos container */
+.todos-container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    padding: 0 1rem;
+}
+
+/* title todos container */
+.title-todos{
+    font-size: 2.1rem;
+    font-weight: 600;
+    margin: 0 0 .5rem;
+}
+
+/* todos (ul) */
+.todos{
+    text-align: right;
+    list-style: none;
+}
+
+/* todo (li) */
+.todo{
+    position: relative;
+    padding: .3rem;
+    font-size: 1.1rem;
+    margin-bottom: .6rem;
+}
+
+/* delelte todo */
+.delete-todo {
+    width: 19px;
+    height: 19px;
+    border-radius: 50%;
+    background-color: red;
+    position: absolute;
+    left: 10px;
+    font-size: .9rem;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 3px;
+    line-height: 18px;
+}
